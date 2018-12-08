@@ -1,0 +1,31 @@
+{
+  "name": "mern-server",
+  "version": "1.0.0",
+  "description": "mernsocial react MERN stack",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanSwan/mernsocial.git"
+  },
+  "keywords": [
+    "cool"
+  ],
+  "author": "Sean London Swan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanSwan/mernsocial/issues"
+  },
+  "homepage": "https://github.com/SeanSwan/mernsocial#readme"
+}
