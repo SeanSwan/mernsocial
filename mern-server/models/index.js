@@ -5,3 +5,5 @@ mongoose.connect("mongodb:/localhost/mernsocial" , {
   useNewUrlParser: true
   //useMongoClient: true // recived error saying this is not used in mongo 5x
 });
+
+module.exports.User = require("./user");
