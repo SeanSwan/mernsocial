@@ -5,7 +5,7 @@ exports.signin = async function(req, res, next) {
   // Finding a user
   // Using Try catch to catch errors  on Async fucnctions
 try {
-  let user = db.user.findOne({
+  let user =  await db.User.findOne({
     email: req.body.email
   });
 
@@ -18,7 +18,7 @@ try {
         username,
         profileImageUrl
       },
-      PROCESS.ENV.SECRET_KEY
+      PROCESS.env.SECRET_KEY
     );
     return res.status(200).json({
       id,

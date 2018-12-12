@@ -7,3 +7,4 @@ mongoose.connect("mongodb:/localhost/mernsocial" , {
 });
 
 module.exports.User = require("./user");
+module.exports.Messages = require("./messages");
